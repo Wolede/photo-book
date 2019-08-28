@@ -7,11 +7,9 @@ import { Route, Link } from "react-router-dom";
 class Main extends Component {
   constructor() {
     super()
-
-    
-  }
-  state = {
-    loading: true
+    this.state = {
+      loading: true
+    } 
   }
 
   componentDidMount() {
